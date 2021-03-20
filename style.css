@@ -130,13 +130,14 @@ nav
     color: var(--white)
 }
 
-.packages .card-body {
+.packages .card-body i{
     color: var(--blue);
 }
 
 .packages button {
     margin: auto;
     margin-top: 40px;
+    font-size: 1.5rem;
 }
 
 /***trip***/
@@ -183,6 +184,11 @@ foot e r  i {
 }
 
 /***destination***/
+.destinations{
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
 .bottomBar{
     padding: 20px 0 10px 0;
     background: var(--blue);
